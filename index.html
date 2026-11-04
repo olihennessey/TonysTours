@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Tony’s Tours | Day trips across Lanzarote</title>
+<meta name="description" content="Small-group day trips across Lanzarote, with hotel pick-up across the island. The coast, the match and a proper curry, run at a pace that suits the day.">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shrikhand&family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+<script src="js/main.js" defer></script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="wordmark" href="#top">Tony’s Tours</a>
+    <nav aria-label="Main">
+      <ul>
+        <li><a href="#tours">Tours</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#book">Book</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+<section class="hero">
+  <div class="wrap">
+    <h1>Tony’s Tours</h1>
+    <p class="sub">Day trips across Lanzarote</p>
+    <p class="lede">The coast, the match and a proper curry, all run at a pace that suits the day rather than the timetable.</p>
+    <a class="btn" href="#book">Book a day trip</a>
+    <ul class="hero-facts">
+      <li><strong>Hotel pick-up</strong> across the island</li>
+      <li><strong>Small groups</strong> only</li>
+      <li><strong>Full and half days</strong> to suit</li>
+    </ul>
+  </div>
+</section>
+
+<section id="tours">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Day trips</h2>
+      <p>Four ways to spend a day on the island. Every trip includes transport and Tony.</p>
+    </div>
+    <ul class="tours">
+      <li class="tour flagship">
+        <span class="flag-note">Our flagship experience</span>
+        <h3>The Palm Bay Tour</h3>
+        <p>A rare opportunity to visit Billy, Jake and Vincent. Places are limited, demand is high and no two visits are ever quite the same. Guests often describe it as the part of the holiday they talk about most.</p>
+        <div class="meta"><span>Full day</span><span>Price on request</span></div>
+      </li>
+      <li class="tour">
+        <h3>Puerto Calero Walk</h3>
+        <span class="where">Puerto Calero</span>
+        <p>A steady walk along the south coast to the marina at Puerto Calero, where the yachts, the shops and the restaurants sit around the harbour. Timed to finish with a long lunch rather than a dash back.</p>
+        <div class="meta"><span>Half day</span><span>Price on request</span></div>
+      </li>
+      <li class="tour">
+        <h3>Trip to the Football</h3>
+        <p>A match, a seat and a few hours away from the pool. Tony sorts the tickets and the transport, and asks only that you keep your opinions to yourself until the final whistle.</p>
+        <div class="meta"><span>Half day</span><span>Price on request</span></div>
+      </li>
+      <li class="tour">
+        <h3>Everest</h3>
+        <p>An evening at Everest, which is a curry house rather than a mountain. Tony books the table and handles the lifts in both directions. Guests are advised to arrive hungry.</p>
+        <div class="meta"><span>Evening</span><span>Price on request</span></div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<section class="about" id="about">
+  <div class="wrap">
+    <figure>
+      <img src="assets/tony.jpg" alt="Tony, smiling with a pint of Guinness, wearing his Tony’s Tours T-shirt" width="700" height="980">
+    </figure>
+    <div>
+      <h2>About Tony</h2>
+      <p>Tony runs every trip himself. He knows the roads, the quiet times to arrive and the places worth an extra twenty minutes, and he keeps groups small so the day never feels rushed.</p>
+      <p>He’ll tell you everything you want to know about the island, and nothing you don’t. Most guests say that’s the best part.</p>
+    </div>
+  </div>
+</section>
+
+<section id="reviews">
+  <div class="wrap">
+    <div class="section-head"><h2>Reviews</h2></div>
+    <ul class="reviews">
+      <li>
+        <span class="stars" aria-label="5 out of 5 stars">★★★★★</span>
+        <blockquote>“The Puerto Calero walk was the highlight of our holiday. Tony set an easy pace and knew exactly where to stop along the way.”</blockquote>
+        <cite>Emma, Leeds</cite>
+      </li>
+      <li>
+        <span class="stars" aria-label="5 out of 5 stars">★★★★★</span>
+        <blockquote>“Booked the football on a whim and it made the trip. Relaxed from start to finish, and everyone got back to the hotel in one piece.”</blockquote>
+        <cite>Raj, Bristol</cite>
+      </li>
+      <li>
+        <span class="stars" aria-label="5 out of 5 stars">★★★★★</span>
+        <blockquote>“Brilliant day out. Tony did the whole thing dressed as a pumpkin and never once explained why.”</blockquote>
+        <cite>Sarah, Nottingham</cite>
+      </li>
+      <li>
+        <span class="stars" aria-label="1 out of 5 stars">★<span class="off">★★★★</span></span>
+        <blockquote>“Lovely scenery but far too Nottingham Forest for my liking.”</blockquote>
+        <cite>Darren, Derby</cite>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<section class="book" id="book">
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Book a day trip</h2>
+      <p>Pick a trip and a date, and Tony will confirm availability.</p>
+    </div>
+    <form id="bookForm">
+      <div><label for="name">Name</label><input id="name" name="name" autocomplete="name" required></div>
+      <div><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required></div>
+      <div>
+        <label for="tour">Tour</label>
+        <select id="tour" name="tour">
+          <option>The Palm Bay Tour</option>
+          <option>Puerto Calero Walk</option>
+          <option>Trip to the Football</option>
+          <option>Everest</option>
+        </select>
+      </div>
+      <div><label for="date">Date</label><input id="date" name="date" type="date" required></div>
+      <div><label for="size">Group size</label><input id="size" name="size" type="number" min="1" max="12" value="2" required></div>
+      <div><button class="btn" type="submit">Request booking</button></div>
+    </form>
+    <p class="confirm" id="confirm" role="status" aria-live="polite"></p>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span class="wordmark">Tony’s Tours</span>
+    <p>Tony’s Tours isn’t a real company and isn’t taking bookings. Nothing you enter on this page is sent or stored.</p>
+  </div>
+</footer>
+
+</body>
+</html>
